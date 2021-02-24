@@ -18,6 +18,8 @@ import (
 	"bytes"
 )
 
+type Foo struct{}
+
 type elementDef struct {
 	b   []byte
 	t   DataType
